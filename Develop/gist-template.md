@@ -30,6 +30,7 @@ This is defined with the element '|', this indicates that the value can be any o
 These are components that tell us what we should expect according to what we put inside '[]' that will be expected to be received. 
 
 ### Bracket Expressions
+these look and match for any character that is located in the square brackets an example to this would be [yY] [eE] [sS] which would look and match yes and YES.
 
 ### Greedy and Lazy Match
 
