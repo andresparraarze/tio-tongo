@@ -12,17 +12,13 @@ These are patterns that tend to be used to create character combinations which a
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
 ### Anchors
+These are used to get a match of a position such as between, before or after characters, $ matches after the last character in a string, an example wwould be 'c$' which is matching in abc, but a$ doesnt match, the '^' matches the posititon before the first character of the string, so the example would be '^a' in abc matches a, but '^b' doesnt matchg since 'b' cant be matched after the start of a string.
 
 ### Quantifiers
 
@@ -30,20 +26,9 @@ These are patterns that tend to be used to create character combinations which a
 
 ### Character Classes
 
-### Flags
-
-### Grouping and Capturing
-
 ### Bracket Expressions
 
 ### Greedy and Lazy Match
 
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
-
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This would be Andres Parra Arze from Bolivia - github name andresparraarze
