@@ -24,6 +24,7 @@ These are used to get a match of a position such as between, before or after cha
 They are used to comminucate the amount of characters that is expected to be received, these specify how many instances of a group, character class or just a character have to be present in order to fin a match, these will try to match as many as possible, the characters '+?{}' when they are located on regular expressions they work as quantifiers and the '?' is dictating the expression to be matched, we use the operaton to distingish the format we will use.
 
 ### OR Operator
+This is defined with the element '|', this indicates that the value can be any of the components that it has next to it.
 
 ### Character Classes
 
