@@ -27,6 +27,7 @@ They are used to comminucate the amount of characters that is expected to be rec
 This is defined with the element '|', this indicates that the value can be any of the components that it has next to it.
 
 ### Character Classes
+These are components that tell us what we should expect according to what we put inside '[]' that will be expected to be received. 
 
 ### Bracket Expressions
 
