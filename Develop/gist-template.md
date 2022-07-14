@@ -21,6 +21,7 @@ These are patterns that tend to be used to create character combinations which a
 These are used to get a match of a position such as between, before or after characters, $ matches after the last character in a string, an example wwould be 'c$' which is matching in abc, but a$ doesnt match, the '^' matches the posititon before the first character of the string, so the example would be '^a' in abc matches a, but '^b' doesnt matchg since 'b' cant be matched after the start of a string.
 
 ### Quantifiers
+They are used to comminucate the amount of characters that is expected to be received, these specify how many instances of a group, character class or just a character have to be present in order to fin a match, these will try to match as many as possible, the characters '+?{}' when they are located on regular expressions they work as quantifiers and the '?' is dictating the expression to be matched, we use the operaton to distingish the format we will use.
 
 ### OR Operator
 
