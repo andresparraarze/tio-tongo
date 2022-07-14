@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Tutorial Matching a hex value, regex
 
-Introductory paragraph (replace this with your text)
+These are patterns that tend to be used to create character combinations which are then matched in strings, usually the 'not' is expressed as '^'. As an example 'a' which is match lowercase 'a' if it is displayed as '^a' it would mean 'dont match lowercase a'
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/, I will be describing components that are used to match hex values, colors can be described as hexadecimals which can give the exact color to a computer, creating more accuracy, this is usually a six digit code that starts with a # sign and this defines these colors that can be used for styling on a computer device or program.
 
 ## Table of Contents
 
