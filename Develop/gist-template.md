@@ -30,9 +30,10 @@ This is defined with the element '|', this indicates that the value can be any o
 These are components that tell us what we should expect according to what we put inside '[]' that will be expected to be received. 
 
 ### Bracket Expressions
-these look and match for any character that is located in the square brackets an example to this would be [yY] [eE] [sS] which would look and match yes and YES.
+These look and match for any character that is located in the square brackets an example to this would be [yY] [eE] [sS] which would look and match yes and YES.
 
 ### Greedy and Lazy Match
+In this case a greedy match tries to catch an element as much as possible meanwhile the lazy match tries to get the element in a very small amount of tries, the lazy quantifier is expressed as '?' and we can make it greedy by adding one more '?'
 
 ## Author
 This would be Andres Parra Arze from Bolivia - github name andresparraarze
