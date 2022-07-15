@@ -12,6 +12,7 @@ These are patterns that tend to be used to create character combinations which a
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
+- [Flags](#Flags)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 
@@ -28,6 +29,9 @@ This is defined with the element '|', this indicates that the value can be any o
 
 ### Character Classes
 These are components that tell us what we should expect according to what we put inside '[]' that will be expected to be received. 
+
+### Flags
+These are placed at the end of a Regex, there is the 'g' which is used for global search, 'm' for multi line search and 'i' which means that these will be case sensitive
 
 ### Bracket Expressions
 These look and match for any character that is located in the square brackets an example to this would be [yY] [eE] [sS] which would look and match yes and YES.
